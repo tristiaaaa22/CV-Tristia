@@ -1,0 +1,106 @@
+/* Warna Aksen Pink */
+:root {
+    --color-primary: #e4a6c0; 
+    --color-secondary: #fce7f2; 
+}
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #eeaacd;
+    line-height: 1,5;
+    font-size: 16px; 
+    margin: 0;
+    padding: 20px;
+
+}
+
+.cv-container{
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+    margin: 30px auto; 
+}
+
+h1{
+    color: black;
+    margin-top: 5px;
+}
+
+h2{
+    color: var(--color-primary);
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 3px solid var(--color-primary)
+}
+
+.card {
+    padding: 20px;
+    border:1px solid #c73c76;
+}
+.header-section{
+    margin-bottom: 20px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #c73c76;
+}
+.header-content{
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.foto-profil img 
+{
+    width:200px;
+    height:200px;
+    border-radius: 50%; 
+    border : 3px solid var(--color-primary);
+    object-fit: cover;
+
+}
+
+.slogan-cv
+{
+    text-align: justify;
+    width: auto;
+    margin-top: 10px;
+    font-style: italic;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--color-secondary);
+    border-left: 3px solid var(--color-primary)
+}
+.main-content{
+    display: flex;
+}
+.kiri-pengalaman{
+    width: 70%;
+    padding-left: 10px;
+    
+}
+.kanan-skill{
+    width: 30%;
+    background-color: var(--color-secondary);
+    padding: 20px;
+}
+
+.exp-item{
+    border-left: 3px solid var(--color-primary);
+    padding-left: 10px;
+    
+}
+
+.video-section{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+footer{
+    text-align: center;
+    background-color: var(--color-secondary);
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+tristiaaaa22.github
